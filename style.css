@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh ;
+}
+.center{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+.first{
+    width: 100%;
+    height: 7%;
+}
+
+.first form{
+    width: 100vw;
+    display: flex;
+    
+}
+
+.first input{
+    width: 82%;
+    padding: 10px 0;
+}
+
+.first button{
+    width: 8%;
+    background-color: navy;
+    color: white;
+    border: none;
+}
+
+.second{
+    width: 100%;
+    height: 90%;
+    overflow: none;
+}
+.second::-webkit-scrollbar{
+    display: none;
+}
+
+.second .item{
+    width: 100%;
+    display: flex;
+    background-color: grey;
+    color: white;
+}
+
+.second .item:nth-child(odd) .key{
+    background-color: dimgray; 
+}
+
+.second .item:nth-child(even) .value{
+    background-color: dimgray;
+}
+
+.item .key,
+.item .value{
+    width: 50%;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.value a{
+    text-decoration: none;
+    color: white;
+    background-color: navy;
+    padding: 20px; 
+ }
